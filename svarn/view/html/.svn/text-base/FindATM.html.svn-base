@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//  DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+ <html>
+   <head>
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon">
+
+     <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+     <title>Address book</title>
+    <script type="text/javascript" src="/svarn/view/js/jquery-1.7.2.js"></script>
+     <script type="text/javascript">
+    
+        function abc() {
+        alert("hello ji");
+      	var tiger = $('select[id=cityid] option:selected').val();
+      	alert("after setting value : "+tiger);
+      	$('#citynames').empty();
+            $.ajax({
+                 type: "GET",
+                 url: "/svarn/view/js/branchlist.xml",
+                 dataType: "xml",
+                 success: function(xml) {
+                     $(xml).find(tiger).each(function(){
+                         
+                            $('<option></option>')
+		                     .html('select branch')
+		                     .appendTo('#update-target select');	
+				$(this).find('name').each(function(){
+			
+					var name_text = $(this).text()
+		                 $('<option></option>')
+		                     .html(name_text )
+		                     .appendTo('#update-target select');
+		                   
+					
+		                  });
+								
+                         
+                     }); //close each(
+                 }
+             }); //close $.ajax(
+         
+   }
+       
+        function displaydetails(){
+        	
+        	alert("Address to be updated soon ...");
+        	
+        }
+        
+     </script>
+   </head>
+   <body>
+          
+     		<select id="cityid" onchange="javascript:abc();">
+	     		<option selected="Selected" value="op0">Select city </option>
+			<option value="op1">Bangalore</option>
+			<option value="op2">Jodhpur</option>
+			<option value="op3">Delhi</option>
+			
+		</select>
+		<input id="cityoption"type = "hidden">
+       <div id='update-target'>
+         
+         
+         <select id="citynames" selected="Select city please" onchange="javascript:displaydetails();">
+         	
+         
+         </select>
+         <ol></ol>
+         <div></div>
+       </div>
+     </p>
+   </body>
+ </html>

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/adwe2012/!svn/ver/1995/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities
+END
+Loan.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/adwe2012/!svn/ver/1811/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Loan.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Employee.java
+END
+OverDraft.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/adwe2012/!svn/ver/1673/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/OverDraft.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/1725/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Account.java
+END
+FixedDeposit.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1673/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/FixedDeposit.java
+END
+DepositInterest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/adwe2012/!svn/ver/1812/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/DepositInterest.java
+END
+EmployeeHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/EmployeeHistory.java
+END
+Branch.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Branch.java
+END
+Cheque.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Cheque.java
+END
+ThirdParty.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/ThirdParty.java
+END
+Deposit.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/1673/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Deposit.java
+END
+Transaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/adwe2012/!svn/ver/2045/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Transaction.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Customer.java
+END
+Company.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Company.java
+END
+AutoDebit.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/adwe2012/!svn/ver/1995/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/AutoDebit.java
+END
+RegisterIb.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/1609/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/RegisterIb.java
+END
+TermLoan.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/adwe2012/!svn/ver/1812/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/TermLoan.java
+END
+DemandLoan.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/1829/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/DemandLoan.java
+END
+RegisterCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/RegisterCompany.java
+END
+LoanInterest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1787/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/LoanInterest.java
+END
+Saving.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/1769/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Saving.java
+END
+Ib.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Ib.java
+END
+RegisterIbPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1609/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/RegisterIbPK.java
+END
+DemandDraft.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/DemandDraft.java
+END
+Kit.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Kit.java
+END
+Biller.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/1648/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Biller.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/1557/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/Address.java
+END
+RegisterLoan.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1807/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/RegisterLoan.java
+END
+RegisterClosing.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/adwe2012/!svn/ver/1962/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/entities/RegisterClosing.java
+END

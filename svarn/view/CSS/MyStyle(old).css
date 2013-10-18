@@ -1,0 +1,110 @@
+body {
+	background: #d8f0cc;
+	
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#header {
+	background-image: url(/svarn/view/Images/mactut8.jpg);
+	background-repeat: repeat-x;
+
+	width: 1100px;
+	height: 60px;
+	margin-top: 1%;
+	margin-left: 7%;
+}
+
+#content {
+	background: #ebeef5;
+	width: 1100px;
+	margin-top: 3px;
+	margin-left: 7%;
+	
+	}
+	
+#back-div {
+	
+	background-color: red;
+	z-index: -10;
+	position: absolute;
+	
+}
+.content_color {
+	/*background-image: url(/svarn/view/Images/mactut10.jpg);*/
+	background: #caecb9;
+	
+}
+
+#footer {
+	background-image: url(/svarn/view/Images/mactut8.jpg);
+	
+	width: 1100px;
+	margin-top: 3px;
+	margin-left: 7%;
+}
+
+.bankname {
+	float: left;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+.search {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.tagline {
+	float: left;
+	margin-left: 3px;
+	font-size: 10px;
+	color: #00aa00;
+}
+
+.menu_bottom {
+	color: #ffffff;
+	font-size: 11px;
+	/*float: right;
+	margin-right: 15px;
+	margin-top: 16px;*/
+}
+
+.blok {
+	
+}
+
+.ser {
+	color: #adadad;
+}
+
+.read {
+	font-size: 12px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.read:link {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.read:hover {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: none;
+}
+
+.read:active {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.name {
+	font-size: 20px;
+	color: #000000;
+}

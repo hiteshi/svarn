@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/adwe2012/!svn/ver/2120/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin
+END
+select_account.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/select_account.jsp
+END
+NewUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/NewUser.jsp
+END
+no_text.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/no_text.jsp
+END
+QuickLinks.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/QuickLinks.jsp
+END
+demand_draft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/demand_draft.jsp
+END
+add_third_party.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/adwe2012/!svn/ver/2099/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/add_third_party.jsp
+END
+delete_auto_debit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/delete_auto_debit.jsp
+END
+News.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/News.jsp
+END
+view_third_party.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1566/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/view_third_party.jsp
+END
+jspdf.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/adwe2012/!svn/ver/2138/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/jspdf.js
+END
+view_auto_debit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/view_auto_debit.jsp
+END
+add_auto_debit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/2097/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/add_auto_debit.jsp
+END
+delete_third_party.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/adwe2012/!svn/ver/2102/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/delete_third_party.jsp
+END
+HomePageAfterLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/HomePageAfterLogin.jsp
+END
+third_party_transfer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/adwe2012/!svn/ver/1655/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/third_party_transfer.jsp
+END
+modify_auto_debit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/modify_auto_debit.jsp
+END
+delete_biller.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/adwe2012/!svn/ver/2105/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/delete_biller.jsp
+END
+modify_third_party.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/modify_third_party.jsp
+END
+view_biller.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/2092/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/view_biller.jsp
+END
+view_profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/adwe2012/!svn/ver/2053/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/view_profile.jsp
+END
+add_biller.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/adwe2012/!svn/ver/2098/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/add_biller.jsp
+END
+sprintf.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/adwe2012/!svn/ver/2120/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/sprintf.js
+END
+view_statement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/2076/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/view_statement.jsp
+END
+trial.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/adwe2012/!svn/ver/2143/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/trial.jsp
+END
+Content.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/adwe2012/!svn/ver/2057/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/Content.jsp
+END
+modify_biller.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/adwe2012/!svn/ver/1875/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/modify_biller.jsp
+END
+Xs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/Xs.jsp
+END
+Description.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/Description.jsp
+END
+Xns.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/adwe2012/!svn/ver/1455/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/Xns.jsp
+END
+fund_transfer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/adwe2012/!svn/ver/2095/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/fund_transfer.jsp
+END
+ChangeUserName.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/adwe2012/!svn/ver/2136/project/group5/EJB_Working_Project/svarn/view/usermgmt/afterLogin/ChangeUserName.jsp
+END

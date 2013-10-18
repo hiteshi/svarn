@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Document Check-list</title>
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon">
+</head>
+<body>
+	<table style="border: 3px solid green;" cellpadding="5"
+		cellspacing="10" width="100%" border="3px" bordercolor="blue">
+		<caption class="formhead1"
+			style="background-color: beige; border: 3px solid green; border-bottom: none;">
+			<strong>Document Check-list</strong>
+		</caption>
+		<tr valign="middle" align="center">
+			<th width="70%">Document</th>
+			<th width="10%">ID Proof</th>
+			<th width="10%">Address proof</th>
+			<th width="10%">Age proof</th>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Valid passport with photo and signature.</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Ration Card with photo.</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Letter issued by State/Central Government</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Voter ID card.</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">PAN card issued by Tax department.</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Driving license issue by regional transport
+				authority.</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Utility bills (Electricity bill, Telephone bill)
+				not older than 3 months.</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+		</tr>
+		<tr valign="middle" align="left">
+			<td width="70%">Statement of account with pass-book which has
+				been opened at-least 3 months earlier.</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+			<td width="10%" align="center"><b>&#8730;</b>
+			</td>
+			<td width="10%" align="center"><b>X</b>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

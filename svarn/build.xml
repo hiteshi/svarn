@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!-- =================================================================== -->
+<!-- Build file for jkportal project    
+	<echo message="${basedir}"/>                                    -->
+<!-- =================================================================== -->
+
+<project name="svarn" default="build-ear" basedir=".">
+
+
+
+	<property environment="env" />
+	<property name="jboss.home" value="${env.JBOSS_HOME}" />
+	<property name="project-name" value="svarn" />
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="src.resources" value="${basedir}/resources" />
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="build.classes.dir" value="${basedir}/classes" />
+	<property name="jboss.deploy.dir" value="${jboss.home}/server/default/deploy" />
+
+
+	<!-- =================================================================== -->
+	<!-- Build classpath -->
+	<!-- =================================================================== -->
+
+	<path id="classpath">
+		<fileset dir="${jboss.home}/common/lib">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${jboss.home}/lib">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement path="${build.classes.dir}" />
+
+	</path>
+
+
+	<!-- =================================================================== -->
+	<!-- Prepares the build directory                                        -->
+	<!-- =================================================================== -->
+
+	<target name="prepare" depends="clean">
+		<mkdir dir="${build.classes.dir}" />
+		<mkdir dir="${dist.dir}" />
+	</target>
+
+
+	<!-- =================================================================== -->
+	<!-- Compiles the source code                                            -->
+	<!-- =================================================================== -->
+
+	<target name="compile" depends="prepare">
+		<javac srcdir="${src.dir}" destdir="${build.classes.dir}">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Build ejb-jar -->
+	<!-- =================================================================== -->
+
+	<target name="build-ejb-jar" depends="compile">
+		<zip destfile="${dist.dir}/${project-name}.jar">
+			<fileset dir="${build.classes.dir}">
+				<include name="com/cdac/svarn/entities/**" />
+				<include name="com/cdac/svarn/helper/**" />
+				<include name="com/cdac/svarn/business/**" />
+				<exclude name="com/cdac/svarn/web/**" />
+			</fileset>
+			<zipfileset dir="${src.resources}" prefix="META-INF/">
+				<include name="persistence.xml" />
+			</zipfileset>
+		</zip>
+
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Build war -->
+	<!-- =================================================================== -->
+
+	<target name="build-war" depends="build-ejb-jar">
+		<war destfile="${dist.dir}/${project-name}.war" webxml="${src.resources}/web.xml">
+			<zipfileset dir="${basedir}/view" prefix="view"/>
+			<fileset file="index.jsp"/>
+			<lib dir="${basedir}/lib">
+				<include name="*.jar" />
+			</lib>
+			<classes dir="${build.classes.dir}">
+				<include name="com/cdac/svarn/web/**" />
+				<include name="com/cdac/svarn/jndi/**" />
+				<exclude name="com/cdac/svarn/entities/**" />
+				<exclude name="com/cdac/svarn/business/**" />
+			</classes>
+
+		</war>
+	</target>
+
+
+	<!-- =================================================================== -->
+	<!-- Build ear -->
+	<!-- =================================================================== -->
+
+
+
+	<target name="build-ear" depends="build-war,build-ejb-jar">
+
+		<jar destfile="${dist.dir}/${project-name}.ear">
+			<metainf dir="${src.resources}">
+				<include name="application.xml" />
+			</metainf>
+			<fileset file="${dist.dir}/${project-name}.jar" />
+			<fileset file="${dist.dir}/${project-name}.war" />
+		</jar>
+
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Cleans up generated stuff                                           -->
+	<!-- =================================================================== -->
+	<target name="clean">
+		<delete dir="${build.classes.dir}" />
+		<delete dir="${dist.dir}" />
+		<delete file="${jboss.deploy.dir}/${project-name}.ear" />
+		<delete file="${jboss.deploy.dir}/mysql-ds.xml" />
+	</target>
+	<!-- =================================================================== -->
+	<!-- run this target if you want to deploy project to JBoss -->
+	<!-- =================================================================== -->
+	<target name="deploy.jboss" depends="build-ear">
+		<!-- copy ${project-name}.war to jboss deployment directory -->
+		<copy file="${dist.dir}/${project-name}.ear" todir="${jboss.deploy.dir}" />
+		<copy file="mysql-ds.xml" todir="${jboss.deploy.dir}" />
+		<echo message="start server if its not running, using command ${jboss.home}/bin/run.sh" />
+	</target>
+
+</project>
+

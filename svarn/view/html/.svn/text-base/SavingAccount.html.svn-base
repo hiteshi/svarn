@@ -1,0 +1,67 @@
+
+<html>
+<head>
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon" />
+<link href="/svarn/view/CSS/des_slids.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="/svarn/view/js/des_slids.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<h1>
+					<u> SAVING ACCOUNT </u>
+				</h1>
+			</td>
+		</tr>
+
+		<tr>
+			<td><p>These accounts are primarily meant to inculcate a
+					sense of saving for the future, accumulating funds over a period of
+					time. Whatever your occupation, we are confident that you will find
+					the perfect banking solution. Open an account in your name or
+					register for one jointly with a family member today. An SVARN Bank
+					Savings Account offers you a valuable banking experience.</p></td>
+		</tr>
+		<tr>
+			<td><a
+				href="/svarn/view/usermgmt/registration/RegistrationPage.jsp"
+				 TARGET="_top"><button type="button">Apply For
+						Saving Account</button> </a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+
+				<div class="heading">
+					<li><b>Internet Banking -</b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>Banking could not have been more convenient. Just log in
+							with your user ID and password and make banking a hassle-free
+							routine. For details, or for the list of transactions that you
+							can do online. If you have forgotten your Internet Banking
+							password or user ID and wish to access your savings account.
+						</ul>
+					</div>
+				</div>
+				<div class="heading">
+					<li><b>Customer Care - </b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>
+							Our 24-hour Customer Care is always available to answer any query
+							or take your instructions. For Customer Care numbers, please
+							<a href="/svarn/view/html/ContactUs.html">click here.</a>
+
+						</ul>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

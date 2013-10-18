@@ -1,0 +1,89 @@
+
+
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon" />
+<link href="/svarn/view/CSS/des_slids.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="/svarn/view/js/des_slids.js"></script>
+
+
+	<table>
+		<tr>
+			<td>
+				<h1>
+					<u> TERM LOAN </u>
+				</h1>
+			</td>
+		</tr>
+
+		<tr>
+			<td><p>Term Loans are extended for the purpose of acquisition of fixed assets.
+			 viz., land, building, plant and machinery for setting up of new industrial units
+			 or expansion/modernisation of existingunitsFinancing for the purchase of second hand machinery (both indigenous as well as imported) 
+			 <b>can also be considered subject to certain conditions .</b>
+
+			
+</p></td>
+		</tr>
+		<tr>
+			<td>
+
+				<div class="heading">
+					<li><b>Margin -</b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>Bank will normally finance upto 75% of the value of fixed assets
+						 and the balance amount should be brought by the applicant as margin. 
+						 However depending upon the activity and quantum of advance 
+						 the bank may either increase the margin or decrease the margin.
+
+						</ul>
+					</div>
+				</div>
+				<div class="heading">
+					<li><b>Security / Third Party Guarantee:</b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>
+							Bank will not insist for collateral security / Third Party Guarantee for total credit limits upto Rs.5 lakhs for SME borrowers.
+							In respect of credit limits above Rs.5 lakhs and upto Rs.25 lakhs 
+							Collateral Security / Third Party Guarantee may be waived for deserving cases 
+							and those limits will be covered under Credit Guarantee Trust for Micro and Small Enterprises (CGTMSE). 
+
+						</ul>
+					</div>
+				</div>
+				
+				<div class="heading">
+					<li><b>Repayments: </b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>
+							The repayment of term loan will be fixed based on the cash generation of the unit and gestation period.
+							Suitable holiday period will be allowed for repayment of the term loan
+
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="heading">
+					<li><b>Type of Loans: </b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>
+							SVARN Bank provides different type of loans. 
+							for example car loan, home loan, education loan,....
+							
+						</ul>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr><td><a href="/svarn/view/usermgmt/loan/loanTypes.jsp" target="_TOP">further details...</a> </td></tr>
+	</table>
+	
+

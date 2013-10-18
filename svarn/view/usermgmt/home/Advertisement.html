@@ -1,0 +1,75 @@
+<html>
+<head>
+
+<script type="text/javascript" src="/svarn/view/js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+	$(function() {
+		setInterval("rotateImages()", 2000);
+	});
+
+	function rotateImages() {
+		var oCurPhoto = $("#photoShow div.current");
+		var oNxtPhoto = oCurPhoto.next();
+
+		if (oNxtPhoto.length == 0)
+			oNxtPhoto = $("#photoShow div:first");
+
+		oCurPhoto.removeClass("current").addClass("previous");
+		oNxtPhoto.css({
+			opacity : 0.0
+		}).addClass("current").animate({
+			opacity : 1.0
+		}, 1000, function() {
+			oCurPhoto.removeClass("previous");
+		});
+	}
+</script>
+<style type="text/css">
+#photoShow {
+	
+	height: 230px;
+	width: 700px;
+}
+
+#photoShow div {
+	position: absolute;
+	z-index: 0;
+}
+
+#photoShow div.previous {
+	z-index: 1;
+}
+
+#photoShow div.current {
+	z-index: 2;
+}
+</style>
+
+</head>
+<body>
+
+	<div id="photoShow" class="current">
+		<div>
+			<a href= "view/usermgmt/loan/loanTypes.jsp"><img src="/svarn/view/Images/001.jpg" alt="Photo Gallery" height="230"
+				width="700"></a>
+		</div>
+		<div>
+			<a href= "view/usermgmt/loan/loanTypes.jsp"><img src="/svarn/view/Images/002.jpg"alt="Photo Gallery" height="230"
+				width="700""></a>
+		</div>
+		<div>
+			<a href= "view/usermgmt/loan/loanTypes.jsp"><img src="/svarn/view/Images/003.jpg" alt="Photo Gallery" height="230"
+				width="700"></a>
+		</div>
+		<div>
+			<a href= "view/usermgmt/loan/loanTypes.jsp"><img src="/svarn/view/Images/004.jpg" alt="Photo Gallery" height="230"
+				width="700"></a>
+		</div>
+	</div>
+
+
+</body>
+
+
+
+</html>

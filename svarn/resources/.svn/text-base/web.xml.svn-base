@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_9" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<!-- Modify this as per requirement this is the copy of Jitender Sir's Code -->
+	<!-- <display-name>SVARN</display-name> <welcome-file-list> <welcome-file>index.jsp</welcome-file> 
+		</welcome-file-list> <servlet> <servlet-name>LoginServlet</servlet-name> 
+		<servlet-class>com.cdac.svarn.web.loginmgmt.LoginServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>LoginServlet</servlet-name> <url-pattern>/login</url-pattern> 
+		</servlet-mapping> -->
+		
+		<listener>
+			<listener-class>com.cdac.svarn.helper.LoadTimer</listener-class>
+		</listener>
+		
+		
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>viewProfile</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.profile.ViewProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewProfile</servlet-name>
+		<url-pattern>/viewProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+
+	<servlet>
+		<servlet-name>chart</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.ChartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>chart</servlet-name>
+		<url-pattern>/chart</url-pattern>
+	</servlet-mapping>
+
+
+<!-- employeemgmt for LoanApplicant -->
+
+	<servlet>
+		<servlet-name>LoanApplicantDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.LoanApplicantDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoanApplicantDetails</servlet-name>
+		<url-pattern>/LoanApplicantDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LoanApplicantTable</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.LoanApplicantTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoanApplicantTable</servlet-name>
+		<url-pattern>/LoanApplicantTable</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>approveLoanApplicant</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.LoanApplicantApproveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approveLoanApplicant</servlet-name>
+		<url-pattern>/approveLoanApplicant</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rejecteLoanApplicant</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.LoanApplicantRejectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rejecteLoanApplicant</servlet-name>
+		<url-pattern>/rejecteLoanApplicant</url-pattern>
+	</servlet-mapping>
+
+<!-- employeemgmt for LoanApplicant -->
+
+
+<!-- employeemgmt for Applicant -->
+
+	<servlet>
+		<servlet-name>ApplicantDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ApplicantDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApplicantDetails</servlet-name>
+		<url-pattern>/ApplicantDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ApplicantTable</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ApplicantTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApplicantTable</servlet-name>
+		<url-pattern>/ApplicantTable</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>approveApplicant</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ApplicantApproveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approveApplicant</servlet-name>
+		<url-pattern>/approveApplicant</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rejecteApplicant</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ApplicantRejectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rejecteApplicant</servlet-name>
+		<url-pattern>/rejecteApplicant</url-pattern>
+	</servlet-mapping>
+
+<!-- employeemgmt for Applicant -->
+
+
+<!-- employeemgmt for Company -->
+
+	<servlet>
+		<servlet-name>CompanyDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.CompanyDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompanyDetails</servlet-name>
+		<url-pattern>/CompanyDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CompanyTable</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.CompanyTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompanyTable</servlet-name>
+		<url-pattern>/CompanyTable</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>approveCompany</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.CompanyApproveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approveCompany</servlet-name>
+		<url-pattern>/approveCompany</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rejecteCompany</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.CompanyRejectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rejecteCompany</servlet-name>
+		<url-pattern>/rejecteCompany</url-pattern>
+	</servlet-mapping>
+
+<!-- employeemgmt for Company -->
+
+
+<!-- employeemgmt for Closing -->
+
+	<servlet>
+		<servlet-name>ClosingDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ClosingDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClosingDetails</servlet-name>
+		<url-pattern>/ClosingDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ClosingTable</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ClosingTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClosingTable</servlet-name>
+		<url-pattern>/ClosingTable</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>approveClosing</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ClosingApproveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approveClosing</servlet-name>
+		<url-pattern>/approveClosing</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rejecteClosing</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ClosingRejectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rejecteClosing</servlet-name>
+		<url-pattern>/rejecteClosing</url-pattern>
+	</servlet-mapping>
+
+<!-- employeemgmt for Closing -->
+
+
+<!-- employeemgmt for IBS -->
+
+	<servlet>
+		<servlet-name>IBSDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.IBSDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IBSDetails</servlet-name>
+		<url-pattern>/IBSDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>IBSTable</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.IBSTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IBSTable</servlet-name>
+		<url-pattern>/IBSTable</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>approveIBS</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.IBSApproveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approveIBS</servlet-name>
+		<url-pattern>/approveIBS</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rejecteIBS</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.IBSRejectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rejecteIBS</servlet-name>
+		<url-pattern>/rejecteIBS</url-pattern>
+	</servlet-mapping>
+
+<!-- employeemgmt for IBS -->
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>setCompany</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.SetCompanyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>setCompany</servlet-name>
+		<url-pattern>/setCompany</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>payBiller</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.PayBillServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>payBiller</servlet-name>
+		<url-pattern>/payBiller</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>addAutoDeb</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.autodebit.AddAutoDebitServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addAutoDeb</servlet-name>
+		<url-pattern>/addAutoDeb</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+	<!-- This part is modified -->
+
+	<servlet>
+		<servlet-name>addBiller</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.AddBillerServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addBiller</servlet-name>
+		<url-pattern>/addBiller</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>identifyBiller</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.IdentifyAccountServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>identifyBiller</servlet-name>
+		<url-pattern>/identifyBiller</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteBiller</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.DeleteBillerServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteBiller</servlet-name>
+		<url-pattern>/deleteBiller</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>viewBiller</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.ViewBillerServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>viewBiller</servlet-name>
+		<url-pattern>/viewBiller</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>setBillerDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.biller.SetBillerServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>setBillerDetails</servlet-name>
+		<url-pattern>/setBillerDetails</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>addThirdParty</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.thirdparty.AddThirdPartyServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addThirdParty</servlet-name>
+		<url-pattern>/addThirdParty</url-pattern>
+	</servlet-mapping>
+
+
+
+
+<servlet>
+		<servlet-name>setTpDetails</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.thirdparty.SetTpServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>setTpDetails</servlet-name>
+		<url-pattern>/setTpDetails</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>identifyThirdParty</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.thirdparty.IdentifyAccountServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>identifyThirdParty</servlet-name>
+		<url-pattern>/identifyThirdParty</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteThirdParty</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.thirdparty.DeleteThirdPartyServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteThirdParty</servlet-name>
+		<url-pattern>/deleteThirdParty</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>viewThirdParty</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.thirdparty.ViewThirdPartyServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>viewThirdParty</servlet-name>
+		<url-pattern>/viewThirdParty</url-pattern>
+	</servlet-mapping>
+
+
+
+	<display-name>SVARN</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CompanyRegistrationServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.CompanyRegistrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompanyRegistrationServlet</servlet-name>
+		<url-pattern>/companyRegister</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CustomerRegistrationServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.CustomerRegistrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerRegistrationServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>LoanRegistrationServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.LoanRegistrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoanRegistrationServlet</servlet-name>
+		<url-pattern>/loanRegister</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/employee</url-pattern>
+	</servlet-mapping>
+	<!-- upto this part -->
+
+
+
+	<servlet>
+		<servlet-name>AvailableUserNameServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.AvailableUserNameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AvailableUserNameServlet</servlet-name>
+		<url-pattern>/searchuser</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>IBSServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.IBSServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IBSServlet</servlet-name>
+		<url-pattern>/saveibs</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>IBSRegistrationServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.IBSRegistrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IBSRegistrationServlet</servlet-name>
+		<url-pattern>/registeribs</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>funds</servlet-name>
+		<servlet-class>com.cdac.svarn.web.transactionmgmt.FundsTransferServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>funds</servlet-name>
+		<url-pattern>/fundXfer</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>XS</servlet-name>
+		<servlet-class>com.cdac.svarn.web.transactionmgmt.TransactionSuccessfulServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XS</servlet-name>
+		<url-pattern>/xs</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>dd</servlet-name>
+		<servlet-class>com.cdac.svarn.web.transactionmgmt.DemandDraftServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dd</servlet-name>
+		<url-pattern>/dd</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>viewstmt</servlet-name>
+		<servlet-class>com.cdac.svarn.web.transactionmgmt.ViewStatementServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewstmt</servlet-name>
+		<url-pattern>/stmt</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>tpXfer</servlet-name>
+		<servlet-class>com.cdac.svarn.web.transactionmgmt.ThirdPartyTransferServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tpXfer</servlet-name>
+		<url-pattern>/tpXfer</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CalculateInterestServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.CalculateInterestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculateInterestServlet</servlet-name>
+		<url-pattern>/savinginterest</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>PasswordResetServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.PasswordResetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PasswordResetServlet</servlet-name>
+		<url-pattern>/paswdreset</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ApprovedIBS</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.ApprovedIBS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApprovedIBS</servlet-name>
+		<url-pattern>/approved</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loanAppliaction</servlet-name>
+		<servlet-class>com.cdac.svarn.web.accountmgmt.loan.LoanAppliactionServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loanAppliaction</servlet-name>
+		<url-pattern>/loanAppliaction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AccTypeAvailableServlet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.employeemgmt.AccTypeAvailableServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AccTypeAvailableServlet</servlet-name>
+		<url-pattern>/accExistance</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveNewPasswordServelet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.SaveNewPasswordServelet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SaveNewPasswordServelet</servlet-name>
+		<url-pattern>/savenewpassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendcomplanServelet</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.SendcomplanServelet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SendcomplanServelet</servlet-name>
+		<url-pattern>/complain</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>closingAccount</servlet-name>
+		<servlet-class>com.cdac.svarn.web.usermgmt.ClosingAccount</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>closingAccount</servlet-name>
+		<url-pattern>/closingAccount</url-pattern>
+	</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,111 @@
+<html>
+<head>
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon">
+
+
+<script src="/svarn/view/js/jquery.min.js"></script>
+<script src="/svarn/view/js/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+	function validatecomplain() {
+		var msg = "";
+		var regexp = /^[a-zA-Z\-\,\.\_\;\:\r\n ]*$/;
+		var numericExpression = /^[0-9]+$/;
+		var remarkRegex = /^[a-zA-Z\-\,\.\_\;\:\r\n ]*$/;
+
+		if (trim(document.forms[0].emailId.value) == "") {
+			msg += "Email Id is required\n";
+		} else {
+			txtvalue = trim(document.forms[0].emailId.value);
+			if (txtvalue != "") {
+				var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+				var address = trim(document.forms[0].emailId.value);
+
+				if (reg.test(address) == false) {
+					msg += "Invalid Email Address\n";
+				}
+
+			}
+		}
+
+		if (document.forms[0].subject.value == "") {
+			msg += "Subject type is required\n";
+			//alert("2222222222211111111111"+msg);
+		}
+		if (document.forms[0].complane.value == "") {
+			msg += "Content is required\n";
+		}
+
+		if (msg != "")
+			alert("" + msg + "\n");
+		else {
+			//alert("11111111111");
+
+			return false;
+		}
+	}
+</script>
+
+
+
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		$(window).load(function() {
+			//alert("on window load");
+			$('#sub').attr('disabled', 'disabled');
+		});
+
+		$("#emailId").blur(function() {
+
+			var uname = $("#emailId").val();
+			$('#sub').removeAttr('disabled');
+				/* Validate the email id  */			
+
+		});
+		
+		$("#complane").blur(function() {
+
+			var complane = $("#").val();
+			alert(complane);		
+
+		});
+		
+		$("#sub").click(function() {
+
+			alert("Thank You For yor valuable Complane...!!");
+
+		});
+
+	});
+</script>
+</head>
+<body>
+	<form action="/svarn/complain" method="post">
+		<font color="blue" size="8"> Remarks </font> </ht>
+		<table>
+			<tr>
+				<td>Yor Email ID</td>
+				<td>:</td>
+				<td><input type="text" id="emailId" name="emailId"
+					maxlength="40" size="55"></td>
+			</tr>
+			<tr>
+				<td>Subject</td>
+				<td>:</td>
+				<td><input type="text" id="subject" name="subject"
+					maxlength="40" size="55"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><textarea id="complane" name="complane"
+						cols="80" rows="15" style="resize: none"> </textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" id="sub" value="Submit" onclick="validatecomplain();return false;"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

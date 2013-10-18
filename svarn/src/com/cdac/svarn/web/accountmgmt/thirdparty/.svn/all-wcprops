@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/adwe2012/!svn/ver/1780/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/thirdparty
+END
+DeleteThirdPartyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/adwe2012/!svn/ver/2101/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/thirdparty/DeleteThirdPartyServlet.java
+END
+SetTpServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/adwe2012/!svn/ver/2101/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/thirdparty/SetTpServlet.java
+END
+AddThirdPartyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/adwe2012/!svn/ver/1566/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/thirdparty/AddThirdPartyServlet.java
+END
+ViewThirdPartyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/adwe2012/!svn/ver/1565/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/thirdparty/ViewThirdPartyServlet.java
+END

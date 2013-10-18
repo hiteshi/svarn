@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/adwe2012/!svn/ver/2078/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt
+END
+ClosingApproveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/2078/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ClosingApproveServlet.java
+END
+IBSRejectServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/IBSRejectServlet.java
+END
+ClosingTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/adwe2012/!svn/ver/2078/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ClosingTableServlet.java
+END
+LoanApplicantApproveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/adwe2012/!svn/ver/1831/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/LoanApplicantApproveServlet.java
+END
+CompanyRejectServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/CompanyRejectServlet.java
+END
+LoanApplicantTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/adwe2012/!svn/ver/1831/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/LoanApplicantTableServlet.java
+END
+ApplicantDetailsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/1691/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ApplicantDetailsServlet.java
+END
+ApplicantRejectServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/adwe2012/!svn/ver/1691/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ApplicantRejectServlet.java
+END
+ApprovedIBS.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ApprovedIBS.java
+END
+CompanyDetailsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/CompanyDetailsServlet.java
+END
+IBSDetailsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/adwe2012/!svn/ver/2033/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/IBSDetailsServlet.java
+END
+ApplicantApproveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/2033/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ApplicantApproveServlet.java
+END
+ApplicantTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/1691/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ApplicantTableServlet.java
+END
+ClosingDetailsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/2078/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ClosingDetailsServlet.java
+END
+EmployeeServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/adwe2012/!svn/ver/2071/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/EmployeeServlet.java
+END
+AccTypeAvailableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/1832/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/AccTypeAvailableServlet.java
+END
+CalculateInterestServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/adwe2012/!svn/ver/2090/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/CalculateInterestServlet.java
+END
+CompanyApproveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/1793/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/CompanyApproveServlet.java
+END
+LoanApplicantDetailsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/adwe2012/!svn/ver/1831/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/LoanApplicantDetailsServlet.java
+END
+CompanyTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/CompanyTableServlet.java
+END
+LoanApplicantRejectServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/adwe2012/!svn/ver/1831/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/LoanApplicantRejectServlet.java
+END
+IBSApproveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/IBSApproveServlet.java
+END
+IBSTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/adwe2012/!svn/ver/1739/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/IBSTableServlet.java
+END
+ClosingRejectServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/adwe2012/!svn/ver/2078/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/employeemgmt/ClosingRejectServlet.java
+END

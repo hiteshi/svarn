@@ -1,0 +1,63 @@
+
+
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon" />
+<link href="/svarn/view/CSS/des_slids.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="/svarn/view/js/des_slids.js"></script>
+
+
+	<table>
+		<tr>
+			<td>
+				<h1>
+					<u> NEWS & EVENTS </u>
+				</h1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+
+				<div class="heading">
+					<li><b>Saving interest changed to 6% -</b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>Savings Account Deposit Interest Rate - 6% (for all
+							amounts). Rates effective 25th April 2012.For further details
+							please visit SVARN bank near to you.
+						</ul>
+					</div>
+				</div>
+				<div class="heading">
+					<li><b>Results for P.O. -</b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>There has been a significant delay in the announcement of
+							the PO results because of the retest (Supplementary Exam) for
+							bank PO for candidates who were not allowed to appear due to
+							improper documents. The date for this exam was 13th Nov, 2011 and
+							we believe, IBPS announce the result only after getting free from
+							IBPS Clerk Exam
+						</ul>
+					</div>
+				</div>
+				<div class="heading">
+					<li><b>Apply for loan online - </b></li>
+				</div>
+				<div class="subHeading">
+					<div>
+						<ul>
+							You're already online. Applying is just a few clicks away. What's
+							more, you can begin banking online immediately—the second your
+							account's approved. Want to apply?<br>
+							<a href="/svarn/view/usermgmt/loan/loanPage.jsp" target="_top">click here</a> 
+
+						</ul>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+

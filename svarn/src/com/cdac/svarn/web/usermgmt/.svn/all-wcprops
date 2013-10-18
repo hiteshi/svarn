@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/adwe2012/!svn/ver/1575/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt
+END
+CompanyRegistrationServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/adwe2012/!svn/ver/1748/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/CompanyRegistrationServlet.java
+END
+CustomerRegistrationServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/1748/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/CustomerRegistrationServlet.java
+END
+SendcomplanServelet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/adwe2012/!svn/ver/2125/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/SendcomplanServelet.java
+END
+LoginServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/adwe2012/!svn/ver/2136/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/LoginServlet.java
+END
+LoanRegistrationServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/adwe2012/!svn/ver/2026/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/LoanRegistrationServlet.java
+END
+LogoutServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/adwe2012/!svn/ver/1565/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/LogoutServlet.java
+END
+IBSServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/adwe2012/!svn/ver/1748/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/IBSServlet.java
+END
+SaveNewPasswordServelet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/adwe2012/!svn/ver/2083/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/SaveNewPasswordServelet.java
+END
+ClosingAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/adwe2012/!svn/ver/2032/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/ClosingAccount.java
+END
+AvailableUserNameServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/adwe2012/!svn/ver/1939/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/AvailableUserNameServlet.java
+END
+IBSRegistrationServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/adwe2012/!svn/ver/2031/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/usermgmt/IBSRegistrationServlet.java
+END

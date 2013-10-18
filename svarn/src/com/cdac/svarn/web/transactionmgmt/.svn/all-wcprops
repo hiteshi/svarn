@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/adwe2012/!svn/ver/1723/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt
+END
+DemandDraftServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/adwe2012/!svn/ver/1566/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt/DemandDraftServlet.java
+END
+TransactionSuccessfulServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/adwe2012/!svn/ver/1565/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt/TransactionSuccessfulServlet.java
+END
+FundsTransferServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/1565/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt/FundsTransferServlet.java
+END
+ThirdPartyTransferServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/adwe2012/!svn/ver/1652/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt/ThirdPartyTransferServlet.java
+END
+ViewStatementServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/2120/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/transactionmgmt/ViewStatementServlet.java
+END

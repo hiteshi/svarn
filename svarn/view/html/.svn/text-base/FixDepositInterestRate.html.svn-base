@@ -1,0 +1,88 @@
+<html>
+<head>
+<h1>Term Deposits (Fixed Deposit and Recurring Deposit)</h1>
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon">
+</head>
+<body>
+	<table cellpadding=0 bordercolor="#000000" cellspacing=-1
+		style='border-collapse: collapse;'>
+		<tr>
+			<td></td>
+			<td colspan="2">Rates of Interest (% p.a.) w.e.f February 16,
+				2012</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Maturity Period</td>
+			<td>General</td>
+			<td>Senior Citizen **</td>
+		</tr>
+		<tr>
+			<td>7 days to 14 days</td>
+			<td>3.75</td>
+			<td>4.25</td>
+		</tr>
+		<tr>
+			<td>15 days to 29 days</td>
+			<td>4.00</td>
+			<td>4.50</td>
+		</tr>
+		<tr>
+			<td>30 days to 45 days</td>
+			<td>5.00</td>
+			<td>5.50</td>
+		</tr>
+		<tr>
+			<td>46 days to 60 days</td>
+			<td>6.25</td>
+			<td>6.75</td>
+		</tr>
+		<tr>
+			<td>61 days to 90 days</td>
+			<td>6.50</td>
+			<td>7.00</td>
+		</tr>
+		<tr>
+			<td>91 days to 184 days</td>
+			<td>7.00</td>
+			<td>7.50</td>
+		</tr>
+		<tr>
+			<td>185 days to 289 days</td>
+			<td>7.50</td>
+			<td>8.00</td>
+		</tr>
+		<tr>
+			<td>290 days to less than 1 year</td>
+			<td>7.75</td>
+			<td>8.25</td>
+		</tr>
+		<tr>
+			<td>1 year to 389 days</td>
+			<td>8.25</td>
+			<td>8.75</td>
+		</tr>
+		<tr>
+			<td>390 days to less than 2 years</td>
+			<td>9.25</td>
+			<td>9.75</td>
+		</tr>
+		<tr>
+			<td>2 years to less than 5 years</td>
+			<td>9.25</td>
+			<td>10.00</td>
+		</tr>
+		<tr>
+			<td>5 years upto 10 years</td>
+			<td>8.75</td>
+			<td>9.50</td>
+		</tr>
+		<tr>
+			<td>Tax Saver FD 80C (5 year) - Upto
+				Rs. 1 lac</td>
+			<td>8.75</td>
+			<td>9.50</td>
+		</tr>
+	</table>
+</body>
+</html>

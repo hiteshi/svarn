@@ -1,0 +1,58 @@
+
+<link rel="icon" href="/svarn/view/Images/logo.ico" type="image/x-icon">
+<link href="/svarn/view/CSS/des_slids.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="/svarn/view/js/des_slids.js"></script>
+
+
+<table>
+	<tr>
+		<u><h1>DEMAND LOAN</h1> </u>
+	</tr>
+	<tr>
+		<td>Demand loans are different because they do not have payment
+			schedules, and the interest rates usually are lower than those
+			offered by banks or lending agencies. To understand how a demand loan
+			works, one could consider two friends who know each other well.</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="heading">
+				<li><b>Margin -</b></li>
+			</div>
+			<div class="subHeading">
+				<div>
+					<ul>Bank will normally finance upto 90% of the value of fixed
+						assets and the balance amount should be brought by the applicant
+						as margin. However depending upon the activity and quantum of
+						advance the bank may either increase the margin or decrease the
+						margin.
+
+					</ul>
+				</div>
+			</div>
+			<div class="heading">
+				<li><b>Repayments: </b>
+				</li>
+			</div>
+			<div class="subHeading">
+				<div>
+					<ul>The repayment of demand loan will be flexible based on the cash
+						generation of the unit and gestation period. Suitable holiday
+						period will be allowed for repayment of the demand loan.
+
+					</ul>
+				</div>
+			</div>
+			<div class="heading">
+				<li><b>Floating Rate </b>
+				</li>
+			</div>
+			<div class="heading">
+				<li><b>Tenor up to 12 months </b>
+				</li>
+			</div>
+			<a href="/svarn/view/usermgmt/loan/demandloan1111.jsp" target="_TOP">further details...</a> 
+			</td>
+	</tr>
+</table>

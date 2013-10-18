@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/adwe2012/!svn/ver/2048/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/autodebit
+END
+ViewAutoDebitServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/adwe2012/!svn/ver/1877/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/autodebit/ViewAutoDebitServlet.java
+END
+AddAutoDebitServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/adwe2012/!svn/ver/2048/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/autodebit/AddAutoDebitServlet.java
+END
+DeleteAutoDebitServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/adwe2012/!svn/ver/1877/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/web/accountmgmt/autodebit/DeleteAutoDebitServlet.java
+END

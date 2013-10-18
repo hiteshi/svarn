@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datasources>
+  <local-tx-datasource>
+    <jndi-name>SvarnDS</jndi-name>
+    <connection-url>jdbc:mysql://172.16.32.45:3306/svarn</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+     <min-pool-size>1</min-pool-size>
+      <max-pool-size>200</max-pool-size>
+      <user-name>rohithg</user-name>
+    	<password>rohithg</password>
+    <metadata>
+       <type-mapping>mySQL</type-mapping>
+    </metadata>
+  </local-tx-datasource>
+</datasources>

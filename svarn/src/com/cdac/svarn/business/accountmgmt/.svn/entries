@@ -1,0 +1,44 @@
+10
+
+dir
+2033
+http://172.16.16.208/svn/adwe2012/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt
+http://172.16.16.208/svn/adwe2012
+
+
+
+2012-04-18T08:19:18.948127Z
+1879
+d1129-sharma
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+994cd204-5b25-4bc3-8e24-f57f728aa5a0
+
+
+
+
+
+
+0
+
+autodebit
+dir
+
+biller
+dir
+
+thirdparty
+dir
+

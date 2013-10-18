@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" 
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Region > Country > Division</title>
+<style type="text/css">
+body {
+	background: #d8f0cc;
+}
+
+#widget {
+	width: 580px;
+	height: 280px;
+}
+
+form {
+	
+}
+
+select {
+	width: 190px;
+	/* font: normal 11px verdana;
+	 color: #fff;
+	background: #000;  */
+}
+
+#txtregion {
+	/* width: 98%;
+	height: 16px;
+	font: normal 12px verdana;
+	letter-spacing: .4em;
+	margin: auto;
+	border-bottom: 1px black solid; */
+}
+
+#txtplacename {
+	/* width: 98%;
+	height: 16px;
+	font: normal 10px verdana;
+	margin: auto; */
+}
+</style>
+<script type="text/javascript" src="city_state.js"></script>
+</head>
+<body>
+	<div id="widget">
+		<form>
+			<table>
+			<tr><td>
+			Region</td><td> <select onchange="set_country(this,country,city_state)"
+				size="1" name="region">
+				<option value="" selected="selected">SELECT REGION</option>
+				<option value=""></option>
+				<script type="text/javascript">
+					setRegions(this);
+				</script>
+			</select> 
+			</td></tr>
+			<tr><td>
+			Country </td><td> <select name="country" size="1"
+				disabled="disabled" onchange="set_city_state(this,city_state)"></select>
+			</td> </tr>
+			<tr><td>
+			 City/State</td><td>  <select name="city_state" size="1"
+				disabled="disabled" onchange="print_city_state(country,this)"></select>
+				
+				
+				</td></tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

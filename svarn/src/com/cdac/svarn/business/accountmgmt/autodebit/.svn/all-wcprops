@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/adwe2012/!svn/ver/2043/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt/autodebit
+END
+AutoDebitManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/adwe2012/!svn/ver/2043/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt/autodebit/AutoDebitManager.java
+END
+ITimedBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/adwe2012/!svn/ver/2043/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt/autodebit/ITimedBean.java
+END
+AutoDebitBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/adwe2012/!svn/ver/2043/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt/autodebit/AutoDebitBean.java
+END
+TimedBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/adwe2012/!svn/ver/2043/project/group5/EJB_Working_Project/svarn/src/com/cdac/svarn/business/accountmgmt/autodebit/TimedBean.java
+END

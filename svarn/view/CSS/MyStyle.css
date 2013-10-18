@@ -1,0 +1,230 @@
+body {
+	background: #d8f0cc;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	background-image: url(/svarn/view/Images/mactut8.jpg);
+	background-repeat: repeat-x;
+	width: 1100px;
+	height: 60px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	/*border: 1px solid;*/
+	margin-top: 1%;
+	margin-left: 7%;
+}
+
+#header1 {
+	background-position: center;
+	background-image: url(/svarn/view/Images/mactut8.jpg);
+	background-repeat: repeat-x;
+	width: 1100px;
+	height: 60px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	/*border: 1px solid red;*/
+	margin-top: 1%;
+	margin-left: 7%;
+}
+
+a {
+	color: #046A7A;
+}
+
+#content {
+	background: #d8f0cc;
+	width: 1100px;
+	margin-top: 3px;
+	moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	margin-left: 7%;
+}
+
+.content_color {
+	background: #95d973;
+	background-position: top;
+	z-index: -10;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 15px threeddarkshadow #8fd46c;
+}
+
+.content_color1 {
+	background: #95d973;
+	background-position: top;
+	background-image: url(/svarn/view/Images/cd_sdfglass.png);
+	z-index: -10;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 15px threeddarkshadow #8fd46c;
+}
+
+#afterlogindiv {
+	height: 500px;
+	width: 850px;
+	background: #d8f0cc;
+	/* 	background-position: top; */
+	/* 	background-image: url(/svarn/view/Images/cd_sdfglass.png); */
+	/* 	z-index: -10; */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 2px solid #95d973;
+}
+
+#afterlogindiv1 {
+	height: 500px;
+	width: 850px;
+	background: red;
+	/* 	background-position: top; */
+	/* 	background-image: url(/svarn/view/Images/cd_sdfglass.png); */
+	/* 	z-index: -10; */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 2px solid #95d973;
+}
+
+.smalldivz { /* 	background-position: top; */
+	/* 	background-image: url(/svarn/view/Images/cd_sdfglass.png); */
+	/* 	z-index: -10; */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 2px solid #95d973;
+}
+
+.lalsitara {
+	color: red;
+}
+
+#footer {
+	background-image: url(/svarn/view/Images/mactut8.jpg);
+	width: 1100px;
+	margin-top: 3px;
+	margin-left: 7%;
+}
+
+.bankname {
+	float: left;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+.search {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.tagline {
+	float: left;
+	margin-left: 3px;
+	font-size: 10px;
+	color: #00aa00;
+}
+
+.menu_bottom {
+	color: #00aa00;
+	font-size: 11px;
+	/*float: right;
+	margin-right: 15px;
+	margin-top: 16px;*/
+}
+
+.blok {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ser {
+	color: #adadad;
+}
+
+.read {
+	font-size: 12px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.read:link {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.read:hover {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: none;
+}
+
+.read:active {
+	font-size: 20px;
+	color: #0274d4;
+	text-decoration: underline;
+}
+
+.name {
+	font-size: 20px;
+	color: #000000;
+}
+
+.image:hover {
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+}
+
+.image {
+	opacity: 1.0;
+	filter: alpha(opacity = 100);
+}
+
+.loan_head {
+	color:#696969;
+	font-size:x-large;
+}
+.head1{
+	font-size:small;
+	font-weight:bold;
+}
+ul li{
+font-size:small;
+}
+.head2{
+font-size:14px;}
+
+.sitemaphead {
+text-align:center;
+color: #b22222;
+list-style-type:none;
+font-weight:bold;
+}
+
+.sitemaphead1{
+background-color:#006400;
+color: #fff;
+}
+
+.sitemaplinks{
+list-style-type:none;
+}
+
+.A{text-decoration: none;}
+A:link {text-decoration: none}
+A:visited {color: #6b8e23;text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
+.heading1{
+	color:#696969;
+	font-size:x-large;
+}
